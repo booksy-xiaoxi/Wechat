@@ -1,0 +1,10 @@
+<!-- WXML 结构 -->
+<view class="camera-btn" bindtap="handleCameraClick">
+  <image class="btn-icon" src="/images/camera.png" mode="aspectFit" />
+  <text class="btn-text">拍照识别</text>
+</view>
+<view class="center-wrapper">
+  <text class="warning-text">谨防保健品骗局</text>
+</view>
+
+<custom-tab-bar />

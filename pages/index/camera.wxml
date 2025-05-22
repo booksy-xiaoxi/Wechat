@@ -1,0 +1,10 @@
+<view style="padding: 20rpx;">
+  <camera device-position="back" flash="auto"
+          style="width: 100%; height: 400px;"
+          binderror="onCameraError"></camera>
+
+  <button type="primary" style="margin-top: 20rpx;" bindtap="takePhoto">拍照</button>
+
+  <view style="margin-top: 20rpx;">预览：</view>
+  <image mode="widthFix" src="{{src}}" style="width: 100%; margin-top: 10rpx;"></image>
+</view>

@@ -1,0 +1,11 @@
+
+<view class="tab-bar">
+  <view class="tab-item" bindtap="switchTab" data-path="/pages/index/index" data-index="0">
+    <image src="/assets/icons/speak.png" class="speak-icon" bindtap="playAudio" data-audio="query" />
+    <text class="{{selected === 0 ? 'tab-text tab-text-active' : 'tab-text'}}">查询</text>
+  </view>
+  <view class="tab-item" bindtap="switchTab" data-path="/pages/second/second" data-index="1">
+    <image src="/assets/icons/speak.png" class="speak-icon" bindtap="playAudio" data-audio="result" />
+    <text class="{{selected === 1 ? 'tab-text tab-text-active' : 'tab-text'}}">查询结果</text>
+  </view>
+</view>

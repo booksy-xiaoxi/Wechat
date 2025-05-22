@@ -1,0 +1,9 @@
+/* app.wxss */
+page {
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-size: 120rpx;
+}
+
+.navigationBarTitleText{
+  font-size: 60rpx;
+}

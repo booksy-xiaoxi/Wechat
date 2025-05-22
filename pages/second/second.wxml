@@ -1,0 +1,8 @@
+<!--pages/second/second.wxml-->
+<view class="status-container">
+  <image wx:if="{{status === 'danger'}}" src="/assets/icons/danger.png" class="status-icon" />
+  <image wx:if="{{status === 'safe'}}" src="/assets/icons/safe.png" class="status-icon" />
+  <image wx:if="{{status === 'warning'}}" src="/assets/icons/warning.png" class="status-icon" />
+</view>
+<text>查询输出</text>
+<custom-tab-bar />

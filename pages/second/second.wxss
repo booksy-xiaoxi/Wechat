@@ -1,0 +1,12 @@
+/* pages/second/second.wxss */
+.status-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60rpx;
+}
+
+.status-icon {
+  width: 180rpx;
+  height: 180rpx;
+}
