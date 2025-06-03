@@ -4,7 +4,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 80px;
+  height: 100px;
   background: #fff;
   display: flex;
   justify-content: space-around;
@@ -22,7 +22,7 @@
 }
 
 .tab-text {
-  font-size: 80rpx;
+  font-size: 78rpx;
   color: #7A7E83;
 }
 

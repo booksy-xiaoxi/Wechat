@@ -11,7 +11,7 @@ Page({
 
   onTouchEnd() {
     this.setData({ isActive: false });
-    this.goToCameraPage(); // 调用统一跳转方法
+    this.handleCameraClick(); // 调用统一跳转方法
   },
   onShow() {
     if (this.getTabBar && this.getTabBar()) {
@@ -21,9 +21,9 @@ Page({
     }
   },
   // 统一跳转逻辑
-  goToCameraPage() {
+  handleCameraClick() {
     wx.navigateTo({
-      url: '/subpackages/camera/camera' 
-    });
+      url: '/pages/camera/camera'  
+    })
   }
 });

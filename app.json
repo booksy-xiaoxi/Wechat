@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/camera/camera",
     "pages/second/second",
     "custom-tab-bar/index"
   ],
@@ -33,11 +34,5 @@
   "useExtendedLib": {
     "kbone": true,
     "weui": true
-  },
-  "permission": {
-    "scope.camera": {
-      "desc": "需要使用相机进行拍照识别"
-    }
   }
-  
 }

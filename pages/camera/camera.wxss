@@ -1,0 +1,59 @@
+.page-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100vw;
+  overflow-x: hidden;
+}
+.page-body-wrapper {
+  width: 100%;
+  max-width: 750rpx; /* 保证不会被照片撑开 */
+  margin: 0 auto;
+}
+
+.camera-box {
+  width: 100vw;   /* 直接使用视口宽度，避免受容器影响 */
+  height: 450px;
+  display: block;
+}
+.btn-area {
+  margin-top: 20rpx;
+}
+
+button {
+  font-size: 72rpx;
+  padding: 20rpx 40rpx;
+}
+
+.photo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30rpx;
+}
+
+.photo-wrapper {
+  position: relative;
+  margin: 10rpx;
+}
+
+.photo {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 8rpx;
+  border: 1px solid #ccc;
+}
+
+.delete-btn {
+  position: absolute;
+  top: -10rpx;
+  right: -10rpx;
+  background-color: red;
+  color: white;
+  font-size: 30rpx;
+  width: 40rpx;
+  height: 40rpx;
+  text-align: center;
+  line-height: 40rpx;
+  border-radius: 50%;
+}

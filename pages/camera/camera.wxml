@@ -1,0 +1,26 @@
+<view class="page-body">
+  <view class="page-body-wrapper">
+    <camera device-position="back" flash="off" binderror="error" class ="camera-box"></camera>
+
+    <view class="btn-area">
+      <button type="primary" bindtap="takePhoto" wx:if="{{photos.length < 3}}">拍照</button>
+    </view>
+    <view class="btn-area" wx:if="{{photos.length > 0}}">
+      <button class="complete-btn" bindtap="goToResultPage">完成</button>
+    </view>
+    <view class="photo-list">
+      <block wx:for="{{photos}}" wx:key="index">
+        <view class="photo-wrapper">
+          <image class="photo"
+             mode="aspectFill"
+             src="{{item}}"
+             data-index="{{index}}"
+             bindtap="previewImage" />
+      <view class="delete-btn" bindtap="deletePhoto" data-index="{{index}}">×</view>
+    </view>
+      </block>
+    </view>
+
+    
+  </view>
+</view>
