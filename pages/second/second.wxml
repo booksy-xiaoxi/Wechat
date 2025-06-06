@@ -5,4 +5,8 @@
   <image wx:if="{{status === 'warning'}}" src="/assets/icons/warning.png" class="status-icon" />
 </view>
 <text>查询输出</text>
+<view class="audio-button" bindtap="playAudio">
+  <image src="/assets/icons/speak.png" class="speak-icon" mode="aspectFit"></image>
+</view>
+
 <custom-tab-bar />
